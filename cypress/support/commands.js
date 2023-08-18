@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -14,6 +15,7 @@
 //
 //
 // -- This is a child command --
+// eslint-disable-next-line max-len
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
 //
