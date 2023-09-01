@@ -6,6 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:execution": "cypress run",
+    "cy:login": "cypress run --spec 'cypress/e2e/Login/login.cy.js' ",
     "lint": "eslint cypress/**/*.js",
     "lint:fix": "eslint cypress/**/*.js --fix"
   },
